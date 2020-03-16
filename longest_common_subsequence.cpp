@@ -7,14 +7,8 @@
 
 using namespace std;
 
-
-int fib(int n)
-{
-    return (n < 2) ? n : fib(n - 1) + fib(n - 2);
-}
-
 /**
- * 
+ * find the longest common subsequence of two strings
  */
 string longest_common_subsequence(const string& a, const string& b)
 {
